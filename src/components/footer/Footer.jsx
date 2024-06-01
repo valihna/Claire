@@ -10,7 +10,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <a
-          href="https://www.linkedin.com/in/claire-van-cleemput"
+          href="https://www.linkedin.com/in/claire-van-cleemput-b2b60911b/"
           target="_blank"
           rel="noopener noreferrer"
         >
