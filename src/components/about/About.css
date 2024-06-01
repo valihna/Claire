@@ -1,0 +1,51 @@
+.about {
+  margin-top: 2rem;
+  font-style: italic;
+  font-style: oblique;
+  font-size: small;
+  font-family: "Times New Roman";
+}
+
+.h1 {
+  font-size: medium;
+}
+
+.paragraph {
+  margin-top: 1%;
+  margin-bottom: 10%;
+  display: flex;
+  align-items: center;
+  margin-right: 15rem;
+  margin-left: 15rem;
+  font-style: italic;
+  font-size: large;
+  font-family: "Times New Roman";
+}
+.app-about {
+  margin-bottom: 5rem;
+}
+.paragraphe:hover {
+  :hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
+@media (max-width: 768px) {
+  .paragraph {
+    flex-direction: column;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    font-size: large;
+  }
+
+  .paragraph {
+    font-size: medium;
+  }
+}
