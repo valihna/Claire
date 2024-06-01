@@ -1,1 +1,82 @@
-/* #fdbfb7 */
+.nav {
+  width: 100vw;
+  height: 6, 1rem;
+  background-color: #fdbfb7;
+  display: flex;
+  padding: 0%;
+  border-bottom: solid 1px #fdbfb7;
+  margin-left: 2rem;
+  margin-right: 3rem;
+  margin-top: 0;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fdbfb7;
+}
+.slogan {
+  color: black;
+  font-style: italic;
+  font-style: oblique;
+  font-size: small;
+  font-family: "Times New Roman";
+  align-items: center;
+  margin-right: 1rem;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.slogan:hover {
+  filter: drop-shadow(0 0 2em #a9a9a9);
+}
+.lghidden {
+  margin-right: 2rem;
+}
+.container {
+  width: 100vw;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.nav {
+  width: 100vw;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 0rem;
+  }
+
+  .lghidden {
+    margin-right: 1rem;
+  }
+
+  .logo {
+    margin-right: 1rem;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+  .slogan {
+    font-size: 3vw;
+    filter: drop-shadow(0 0 2em#A9A9A9);
+  }
+
+  .nav-links {
+    margin-right: 0, 5rem;
+  }
+}
+/* #FDBFB7 rose */
+/* #e1dbd6 clair*/
+/* #FFE4E1 hoverrose pale */
+/* #A9A9A9 gris  */
