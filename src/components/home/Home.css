@@ -1,0 +1,64 @@
+.container-home {
+  margin-top: 20%;
+  margin-bottom: 30%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  align-items: center;
+  gap: 60px;
+}
+
+.card-about,
+.card-experiences,
+.card-domaine {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  transition: filter 0.3s ease;
+  border: 1px solid white;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.card-about img,
+.card-experiences img,
+.card-domaine img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-about h3,
+.card-experiences h3,
+.card-domaine h3 {
+  text-align: center;
+  margin: 10px 0;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-about:hover,
+.card-experiences:hover,
+.card-domaine:hover {
+  filter: drop-shadow(0 0 2em #a9a9a9);
+}
+
+@media (max-width: 992px) {
+  .container-home {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-home {
+    grid-template-columns: 1fr;
+    margin-top: 40%;
+  }
+}
