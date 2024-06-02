@@ -60,13 +60,6 @@ body {
     margin-right: 1rem;
   }
 
-  .logo {
-    margin-right: 1rem;
-  }
-
-  .logo img {
-    width: 100px;
-  }
   .slogan {
     font-size: 3vw;
     filter: drop-shadow(0 0 2em#A9A9A9);

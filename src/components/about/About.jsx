@@ -5,9 +5,9 @@ import "./About.css";
 
 function About() {
   return (
-    <div>
+    <div className="about-contain">
       <div className="about">
-        <h1>Qui suis-je ?</h1>
+        <h2>Qui suis-je ?</h2>
       </div>
       <div className="paragraph">
         <p>

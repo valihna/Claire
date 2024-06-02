@@ -1,0 +1,54 @@
+body {
+  overflow-x: hidden;
+  /* margin: 0; */
+}
+/* .container {
+  padding: 0%;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+} */
+.fond {
+  width: 100%;
+  height: 7rem;
+}
+
+.img-fond {
+  width: 100%;
+  height: 7rem;
+  display: block; /* Pour supprimer la marge par défaut */
+  position: relative; /* Position relative pour ajuster le débordement */
+}
+.img-container {
+  width: 100%;
+  overflow: hidden; /* Assurez-vous que le conteneur ne déborde pas */
+}
+
+@media (max-width: 1200px) {
+  .img-fond {
+    height: 6rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .img-fond {
+    height: 5rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-fond {
+    height: 4rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .img-fond {
+    height: 3rem;
+    width: 100%;
+  }
+}
